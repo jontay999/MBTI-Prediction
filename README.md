@@ -2,7 +2,7 @@
 The Myer-Briggs Type Indicator is a comprehensive indicator of personality types and is used commonly in various settings, from Occupational choices to targetted marketing and personality classification. Given that the test takes approximately 20-30 minutes, this is overhead time that can be reduced and classification made more efficient. Hence, we developed a Prediction model for MBTI personality types based on **text input** by the user. We train our model on user comments extracted from Reddit.
 ## Directory
 1. [Exploratory Analysis](explore.ipynb)
-2. [Data Cleaning]()
+2. [Data Cleaning](data_cleaning.ipynb)
 3. [Generate word embeddings](Reddit%20Embeddings.ipynb)
 4. [Model](Reddit%20LM.ipynb)
 ## Models used
