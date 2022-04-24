@@ -49,9 +49,9 @@ We can talk about our accuracy here and do some analysis. throw in wordcloud of 
 | Model               | Accuracy  | F1 Score  | Precision | Recall  |
 | ------------------- | --------- | --------- | --------- | ------- |
 | K Nearest Neighbors | 0.511     | 0.538     | 0.530     | 0.547   |
-| Linear SVM          | 0.541     | 0.591     | **0.552** | 0.636   |
+| Linear SVM          | 0.541     | 0.591     | 0.552     | 0.636   |
 | Decision Tree       | 0.513     | 0.552     | 0.530     | 0.576   |
-| Neural Net (MLP)    | 0.547     | 0.567     | 0.566     | 0.569   |
+| Neural Net (MLP)    | 0.547     | 0.567     | **0.566** | 0.569   |
 | Random Forest       | 0.517     | 0.656     | 0.522     | 0.881   |
 | RBF SVM             | **0.551** | **0.699** | 0.537     | **1.0** |
 | Naive Bayes         | 0.520     | 0.547     | 0.539     | 0.555   |
