@@ -27,7 +27,7 @@ Datasets used for training and testing are not included in this repository due t
   - Multi-Layer Perceptual (MLP)
 
 ## Findings and Analysis
-From the results (shown below) we identify the two best models to use in prediction of each class as follows:<br><br>
+From the results (shown below) we identify the two best models to use in prediction of each class as follows:<br>
 - I vs E - RBF SVM, MLP
 - N vs S - RBF SVM, MLP
 - F vs T - RBF SVM, Naive Bayes
@@ -88,7 +88,7 @@ RBF SVM produces consistent results in predicting all classes, performing best w
 | Naive Bayes         | 0.493     | **0.444** | 0.378     | **0.537** |
 | AdaBoost            | 0.596     | 0.204     | 0.395     | 0.137     |
 
-## Future Considerations
+## Future Considerations and Improvements
 1. Given limited computing power, all analysis done was on a dataset with 4 million rows, which was then filtered down to 12k rows after all data cleaning and preprocessing. Given more time and resources, it would be beneficial to train our recommended models on a larger dataset of 17 million rows, which would be filtered down to 130k rows after all preprocessing. This would provide a more accurate model trained on a larger dataset.
 2. Hyper parameter tuning would allow a better model fit on the training set and we were unable to perform this due to limited time.
 3. Train model on a variety of datasets, not limited to just reddit comments but also exploring more primary data sources such as first hand accounts of events and self-introductions rather than secondary data such as replies on comments.
